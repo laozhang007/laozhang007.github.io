@@ -2,17 +2,133 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>首页</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link type="text/css" rel="stylesheet" href="css/task0002_4.css">
 </head>
 <body>
-//请忽视这个简陋的导航
-<ul>
-    <li><a href="task0002_1.html" target="_blank"> 任务一</a> </li>
-    <li><a href="task0002_2.html" target="_blank"> 任务二</a> </li>
-    <li><a href="task0002_3.html" target="_blank"> 任务三</a> </li>
-    <li><a href="task0002_4.html" target="_blank"> 任务四</a> </li>
-    <li><a href="task0002_5.html" target="_blank"> 任务五</a> </li>
-    <li><a href="laozhang007/index.html" target="_blank"> 上次作业的演示</a> </li>
-</ul>
+    <div class="header">
+        <a class="github-icon" href="https://github.com/laozhang007" target="_blank"><img src="img/icon-github.png" alt="github-icon" border="0"></a>
+        <div class="header-content">
+            <h2>Laozhang007</h2>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="blog.html">文章</a></li>
+                <li><a href="gallery.html">作品</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="img/banner-bg.jpg" alt="banner" width=100% >
+        <div class="banner-intro-wrap">
+            <div class="banner-intro">
+                <h1>淡淡的背景渐变</h1>
+                <p>这里用到了CSS3中的线性渐变，背景的透明度线性增加</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content-wrap">
+        <div class="main-content">
+            <div class="main-content-column main-content-column-right">
+                <img src="img/column1.jpg">
+                <p>Ajax是现代浏览器中常用的技术，我在utli.js封装了常用的ajax操作，下班的输入框是我模拟ajax的返回效果。
+                <input type="search" id="search-box" style="display: block">
+    			<ul id="hint"></ul>
+                </p>
+                
+            </div>
+            <div class="main-content-column main-content-column-right">
+                <img src="img/column2.jpg">
+                <p>在浏览网页时候经常被各大网站的首页的轮播效果所吸引，以前的我只是简单的使用bootstrap中的插件，现在的我已经开始用纯js实现自己的轮播，你可以来<a href="./task0002_3.html" target='blank' style="color:red">这里</a>看看.</p>
+            </div>
+            <div class="main-content-column">
+                <img src="img/column3.jpg">
+                <p>拖拽也是目前网页中常用的交互方式，html5中为元素增加了拖拽属性，<a href="./task0002_5.html" style="color:red">这里</a>是我用原生js和html4，css实现的拖拽效果小例子</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="self-intro">
+        <img src="img/avatar.jpg" width="160px">
+        <h1>Hi,I'm ZhangChuang</h1>
+        <p>各位老师你们好！我是来自北京邮电大学的张闯。从时间上看，我接触前端也快一年了，但以前的我并没有真正了解前端。中，代码中滥用JavaScript库和插件，JQuery和bootstrap满天飞，也不注重页面性能。最近几个月我开始比较系统地学习前端知识，我了解到前端并不是想象中的那么简单。一个优秀的前端工程师要掌握的东西有很多：要懂需求和设计、注重性能和优化、标记Web应用程序，使之语义化，SEO友好、精通原生JavaScript，知道何时从头开始做，何时参考别人的代码，同时可以评估这样做的优缺点，对CSS进行预处理和后处理、CDN加速和缓存预取和延迟加载技术的使用、前端模块化和工程化、了解内存管理和垃圾回收……一名优秀的前端工程师，更像是一名以前端开发为主的全栈工程师。虽然我现在还在入门阶段，但我会沿着正确的道路坚持走下去，不断学习提高自己！</p>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-nav">
+            <a href="index.html">主页</a>
+            <a href="blog.html">文章</a>
+            <a href="gallery.html">作品</a>
+            <a href="about.html">关于</a>
+        </div>
+
+        <div class="link-list">
+            <div class="link-list-item">
+                <p class="link-list-title">学习资料</p>
+                <ul class="link-list-content">
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                </ul>
+            </div>
+            <div class="link-list-item">
+                <p class="link-list-title">友情链接</p>
+                <ul class="link-list-content">
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                </ul>
+            </div>
+            <div class="link-list-item">
+                <p class="link-list-title">学习资料</p>
+                <ul class="link-list-content">
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                </ul>
+            </div>
+            <div class="link-list-item">
+                <p class="link-list-title">友情链接</p>
+                <ul class="link-list-content">
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                </ul>
+            </div>
+            <div class="link-list-item">
+                <p class="link-list-title">学习资料</p>
+                <ul class="link-list-content">
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                    <li><a href="">LINK</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>版权信息</p>
+            <a href="https://github.com/laozhang007" target="_blank"><img src="img/icon-github.png"></a>
+        </div>
+    </div>
+	<script src="js/util.js"></script>
+	<script src="js/task0002_4.js"></script>
 </body>
 </html>
